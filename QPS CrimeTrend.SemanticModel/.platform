@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "QPS CrimeTrend"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "93163e18-0400-4ba2-80af-50d1387e271f"
+  }
+}

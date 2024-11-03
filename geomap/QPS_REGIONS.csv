@@ -1,0 +1,8 @@
+name,visibility,description,styleUrl,fill-opacity,fill,stroke-opacity,stroke,stroke-width,label-scale,icon-scale,REGION,FID
+BRISBANE,true,QPS Region,#KMLStyler_4,0,#ff0000,1,#ff0000,1.5,1,0.8,BRISBANE,kml_1
+CENTRAL,true,QPS Region,#KMLStyler_4,0,#ff0000,1,#ff0000,1.5,1,0.8,CENTRAL,kml_2
+FAR NORTHERN,true,QPS Region,#KMLStyler_4,0,#ff0000,1,#ff0000,1.5,1,0.8,FAR NORTHERN,kml_3
+NORTH COAST,true,QPS Region,#KMLStyler_4,0,#ff0000,1,#ff0000,1.5,1,0.8,NORTH COAST,kml_4
+NORTHERN,true,QPS Region,#KMLStyler_4,0,#ff0000,1,#ff0000,1.5,1,0.8,NORTHERN,kml_5
+SOUTH EASTERN,true,QPS Region,#KMLStyler_4,0,#ff0000,1,#ff0000,1.5,1,0.8,SOUTH EASTERN,kml_6
+SOUTHERN,true,QPS Region,#KMLStyler_4,0,#ff0000,1,#ff0000,1.5,1,0.8,SOUTHERN,kml_7

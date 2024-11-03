@@ -1,0 +1,8 @@
+expression BasePath = "C:\Users\64223\Documents\_Admin\Jobs\Applying\Justice Analyst\Task\" meta [IsParameterQuery=true, List={"C:\Users\64223\Documents\_Admin\Jobs\Applying\Justice Analyst\Task\"}, DefaultValue="C:\Users\64223\Documents\_Admin\Jobs\Applying\Justice Analyst\Task\", Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 9e45b109-29f6-439b-a034-d67da2f53f3c
+	queryGroup: '00 Utilities\00-00 Params'
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

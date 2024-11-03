@@ -1,0 +1,302 @@
+table Calendar
+	lineageTag: 2aa5a6cd-21ce-45ea-a307-fda49da7edb9
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: Long Date
+		lineageTag: 85643749-8e55-4507-b512-baae1f73968e
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 5568e50e-4898-45dc-9bab-d709fd56e204
+		summarizeBy: none
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = User
+
+	column 'Start of Year'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 72936645-f969-4af5-8a1c-079d2021f4d0
+		summarizeBy: none
+		sourceColumn: Start of Year
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'End of Year'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 97f1c1ae-1c56-4824-9eea-1553f283a033
+		summarizeBy: none
+		sourceColumn: End of Year
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Month Number'
+		dataType: int64
+		formatString: 0
+		lineageTag: 88555b77-7738-49d5-9f4a-bd0ff7b7145e
+		summarizeBy: none
+		sourceColumn: Month Number
+
+		annotation SummarizationSetBy = User
+
+	column 'Month Name'
+		dataType: string
+		lineageTag: 1f709b7a-f55a-43fa-9d46-8e7ae6fccf40
+		summarizeBy: none
+		sourceColumn: Month Name
+		sortByColumn: 'Month Number'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Start Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 4ee20c4c-b19f-4787-81e1-578a6d70286d
+		summarizeBy: none
+		sourceColumn: Month Start Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Month End Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 04d583c0-4296-4a41-aac2-6fc6e61786cf
+		summarizeBy: none
+		sourceColumn: Month End Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Days in Month'
+		dataType: int64
+		formatString: 0
+		lineageTag: 21e2875e-9188-4dde-9df3-de86ce37cb0f
+		summarizeBy: none
+		sourceColumn: Days in Month
+
+		annotation SummarizationSetBy = User
+
+	column 'Quarter Number'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5784282d-57bb-4670-9c41-be654f8cf61c
+		summarizeBy: none
+		sourceColumn: Quarter Number
+
+		annotation SummarizationSetBy = User
+
+	column 'Quarter Start Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 0dd49104-762a-4717-b68c-fc558f911de0
+		summarizeBy: none
+		sourceColumn: Quarter Start Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Quarter End Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 69b8f11f-4ab6-4abd-9e88-bb5e99ea26de
+		summarizeBy: none
+		sourceColumn: Quarter End Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Week Number of Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: 20fd36cd-c8cf-44a0-8698-687a1995e5b2
+		summarizeBy: none
+		sourceColumn: Week Number of Year
+
+		annotation SummarizationSetBy = User
+
+	column 'Week Number of Month'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3c07b844-c91c-48e4-8a1b-afcb07f26a02
+		summarizeBy: none
+		sourceColumn: Week Number of Month
+
+		annotation SummarizationSetBy = User
+
+	column 'Week Start Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6937db05-78f1-4e1e-9879-cc5fb423eb2d
+		summarizeBy: none
+		sourceColumn: Week Start Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Week End Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 3f6766e5-f49f-4115-83d8-2a3ee39ffa92
+		summarizeBy: none
+		sourceColumn: Week End Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Day of Month'
+		dataType: int64
+		formatString: 0
+		lineageTag: cebf0316-f257-43ab-9c28-f0e8ac127ca4
+		summarizeBy: none
+		sourceColumn: Day of Month
+
+		annotation SummarizationSetBy = User
+
+	column 'Day of Week'
+		dataType: int64
+		formatString: 0
+		lineageTag: b8ba116c-4b36-43ce-af65-07a1a6b72bdf
+		summarizeBy: none
+		sourceColumn: Day of Week
+
+		annotation SummarizationSetBy = User
+
+	column 'Day of Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: 57806726-d0fb-47db-83b8-feadf204bb15
+		summarizeBy: none
+		sourceColumn: Day of Year
+
+		annotation SummarizationSetBy = User
+
+	column 'Day Name'
+		dataType: string
+		lineageTag: 592c5a70-da29-4e96-80e8-0ace0be98835
+		summarizeBy: none
+		sourceColumn: Day Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column t-90
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 9f157c18-6949-4f09-aede-21c0ed035eb7
+		summarizeBy: none
+		sourceColumn: t-90
+
+		annotation SummarizationSetBy = Automatic
+
+	column isFuture
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: fb1221f3-18ff-4bcc-a2f7-45a5d1084a20
+		summarizeBy: none
+		sourceColumn: isFuture
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Reporting Month'
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 895c0863-16ab-494b-80d0-da4dd2a0c554
+		summarizeBy: none
+		sourceColumn: Reporting Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Reporting Month - Last year'
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: a7dd4f2f-8c05-4457-8ae8-deb5f016f6f6
+		summarizeBy: none
+		sourceColumn: Reporting Month - Last year
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendar = m
+		mode: import
+		queryGroup: '00 Utilities'
+		source = ```
+				let 
+				    Source = {Number.From(#date(2019,1,1)) .. Number.From(#date(2024,12,31))},
+				    #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Converted to Table", {{"Column1", type date}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type", {{"Column1", "Date"}}),
+				    #"Added Year" = Table.AddColumn(#"Renamed Columns", "Year", each Date.Year([Date]), Int64.Type),
+				    // Year Number (2021, 2022)\r\n
+				    #"Added Start of Year" = Table.AddColumn(#"Added Year", "Start of Year", each Date.StartOfYear([Date]), type date),
+				    // #"Start of Year Date (01-01-2021)\r\n
+				    #"Added End of Year" = Table.AddColumn(#"Added Start of Year", "End of Year", each Date.EndOfYear([Date]), type date),
+				    // #"End of Year Date (31-12-2021)\r\n
+				    #"Added Month Number" = Table.AddColumn(#"Added End of Year", "Month Number", each Date.Month([Date]), Int64.Type),
+				    // Month Number" (1-12)\r\n
+				    #"Added Month Name" = Table.AddColumn(#"Added Month Number", "Month Name", each Date.MonthName([Date])),
+				    // Month Name (January - December)\r\n
+				    #"Added Month Start Date" = Table.AddColumn(#"Added Month Name", "Month Start Date", each Date.StartOfMonth([Date]), type date),
+				    // Month Start Date (01-02-2021)\r\n
+				    #"Added Month End Date" = Table.AddColumn(#"Added Month Start Date", "Month End Date", each Date.EndOfMonth([Date]), type date),
+				    // Month End Date (28-02-2021)\r\n
+				    #"Added Days in Month" = Table.AddColumn(#"Added Month End Date", "Days in Month", each Date.DaysInMonth([Date]), Int64.Type),
+				     // Days in Month (31, 28, 30 )\r\n
+				    #"Added Quarter Number" = Table.AddColumn(#"Added Days in Month", "Quarter Number", each Date.QuarterOfYear([Date]), Int64.Type),
+				    // Quarter Number (1-4)\r\n
+				    #"Added Quarter Start Date" = Table.AddColumn(#"Added Quarter Number", "Quarter Start Date", each Date.StartOfQuarter([Date]), type date),
+				    // Quarter Start Date (01-04-2021)\r\n
+				    #"Added Quarter End Date" = Table.AddColumn(#"Added Quarter Start Date", "Quarter End Date", each Date.EndOfQuarter([Date]), type date),
+				    // Quarter End Date (31-03-2021)\r\n
+				    #"Added Week Number of Year" = Table.AddColumn(#"Added Quarter End Date", "Week Number of Year", each Date.WeekOfYear([Date]), Int64.Type),
+				    // Week Number of Year (1-53)\r\n
+				    #"Added Week Number of Month" = Table.AddColumn(#"Added Week Number of Year", "Week Number of Month", each Date.WeekOfMonth([Date]), Int64.Type),
+				    // Week Number of Month (1-5 )\r\n
+				    #"Added Week Start Date" = Table.AddColumn(#"Added Week Number of Month", "Week Start Date", each Date.StartOfWeek([Date]), type date),
+				    // Week Start Date (18-01-2021)\r\n
+				    #"Added Week End Date" = Table.AddColumn(#"Added Week Start Date", "Week End Date", each Date.EndOfWeek([Date]), type date),
+				    // Week End Date (24-01-2021)\r\n
+				    #"Added Day of Month" = Table.AddColumn(#"Added Week End Date", "Day of Month", each Date.Day([Date]), Int64.Type),
+				    // Day of Month (1-31 )\r\n
+				    #"Added Day of Week" = Table.AddColumn(#"Added Day of Month", "Day of Week", each Date.DayOfWeek([Date]), Int64.Type),
+				    // Day of Week (1-7)\r\n
+				    #"Added Day of Year" = Table.AddColumn(#"Added Day of Week", "Day of Year", each Date.DayOfYear([Date]), Int64.Type),
+				    // Day of Year (1-365)\r\n
+				    #"Added Day Name" = Table.AddColumn(#"Added Day of Year", "Day Name", each Date.DayOfWeekName([Date])),
+				        #"Added t-90" = Table.AddColumn(#"Added Day Name", "t-90", each ([Date] >= Date.AddDays(DateTime.Date(DateTime.LocalNow()), - 90)) and [Date] <= DateTime.Date(DateTime.LocalNow())),
+				        #"Added isFuture" = Table.AddColumn(#"Added t-90", "isFuture", each [Date] > DateTime.Date(DateTime.LocalNow())),
+				        #"Changed Type1" = Table.TransformColumnTypes(#"Added isFuture", {{"t-90", type logical}, {"isFuture", type logical}}),
+				        #"Transform columns" = Table.TransformColumnTypes(#"Changed Type1", {{"Month Name", type text}, {"Day Name", type text}}),
+				    // Full month for reporting purposes\r\n
+				    #"Added is previous month" = Table.TransformColumnTypes(Table.AddColumn(#"Transform columns", "Reporting Month", each Date.IsInPreviousMonth([Date])), {{"Reporting Month", type logical}}),
+				    // Full month for reporting purposes, parallel time period for  comparisons\r\n
+				    #"Added is previous month last year" = Table.TransformColumnTypes(Table.AddColumn(#"Added is previous month", "Reporting Month - Last year", each ([Date] >=#date(Date.Year(DateTime.LocalNow()) -1 , Date.Month(DateTime.LocalNow())-1, 1)) and ([Date] <#date(Date.Year(DateTime.LocalNow()) -1 , Date.Month(DateTime.LocalNow())+1, 1))), {{"Reporting Month - Last year", type logical}})
+				in
+				    #"Added is previous month last year"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

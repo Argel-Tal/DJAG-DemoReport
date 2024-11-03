@@ -1,0 +1,8 @@
+relationship AutoDetected_47c8c81f-5829-42b2-b13f-52e4d1c83954
+	fromColumn: OtherTheft.Region
+	toColumn: QPS_REGIONS.REGION
+
+relationship c3bff486-26f9-73f4-1126-ea61182bf555
+	fromColumn: OtherTheft.Date
+	toColumn: Calendar.Date
+

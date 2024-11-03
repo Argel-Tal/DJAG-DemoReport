@@ -1,0 +1,234 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.59\",\"type\":2},\"customTheme\":{\"name\":\"Custom8183063334939624.json\",\"version\":\"5.59\",\"type\":1}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Custom8183063334939624.json",
+            "path": "Custom8183063334939624.json",
+            "type": 201
+          },
+          {
+            "name": "QPS_REGIONS8256390078310674.json",
+            "path": "QPS_REGIONS8256390078310674.json",
+            "type": 200
+          },
+          {
+            "name": "qld-corporate-identity9262144096776572.gif",
+            "path": "qld-corporate-identity9262144096776572.gif",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"50D\"}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 3,
+      "filters": "[]",
+      "height": 1280.00,
+      "name": "8c50d0150430bec28224",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0b6934d0c9bcda9cb899\",\"layouts\":[{\"id\":0,\"position\":{\"x\":841.3119533527697,\"y\":0.08746355685129208,\"z\":1000,\"width\":142.85714285714286,\"height\":198.57142857142858,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Notes:\",\"textStyle\":{\"fontWeight\":\"bold\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"2019 volumes are significantly lower, as only Nov- Dec have been captured. \"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"2024 volumes are also lower, as a full year of data is not yet available.\"}]}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Date notes'\"}}}}}]}},\"parentGroupName\":\"9bd3ade5338a4bdb4a4d\"}",
+          "filters": "[]",
+          "height": 198.57,
+          "width": 142.86,
+          "x": 841.31,
+          "y": 0.09,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"111ec6dc078b076a4002\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":1000,\"width\":72.5,\"height\":58.75,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"qld-corporate-identity9262144096776572.gif\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Logo'\"}}}}}]}},\"parentGroupName\":\"825d1475323d30339c65\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 58.75,
+          "width": 72.50,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"17783fc791404e1ac3a7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":984.2857142857143,\"height\":198.57142857142858,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"parentGroupName\":\"9bd3ade5338a4bdb4a4d\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 198.57,
+          "width": 984.29,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"1bf3ec42a203d9c0ee8d\",\"layouts\":[{\"id\":0,\"position\":{\"height\":434.2857142857144,\"width\":255.71428571428572,\"x\":365.7142857142857,\"y\":0,\"z\":2000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"shapeMap\",\"projections\":{\"Category\":[{\"queryRef\":\"QPS_REGIONS1.REGION\"}],\"Value\":[{\"queryRef\":\"_measures.Change\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"QPS_REGIONS\",\"Type\":0},{\"Name\":\"_\",\"Entity\":\"_measures\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"REGION\"},\"Name\":\"QPS_REGIONS1.REGION\",\"NativeReferenceName\":\"REGION\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Change\"},\"Name\":\"_measures.Change\",\"NativeReferenceName\":\"Change\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"map\":{\"geoJson\":{\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'packaged'\"}}},\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'QPS_REGIONS.json'\"}}},\"content\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"QPS_REGIONS8256390078310674.json\"}}}}},\"projectionEnum\":{\"expr\":{\"Literal\":{\"Value\":\"'mercator'\"}}}}}],\"dataPoint\":[{\"properties\":{\"fillRule\":{\"linearGradient3\":{\"min\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#F99E33'\"}}}},\"mid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}},\"max\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#063652'\"}}}},\"nullColoringStrategy\":{\"strategy\":{\"expr\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Northern Queensland is experiencing the highest increase'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"da88f7d6d00ced178503\"}",
+          "filters": "[]",
+          "height": 434.29,
+          "width": 255.71,
+          "x": 365.71,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"380aeab00d25bc2dc303\",\"layouts\":[{\"id\":0,\"position\":{\"x\":621.8367346938776,\"y\":29.387755102040796,\"z\":1000,\"width\":360,\"height\":357.14285714285717,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(OtherTheft.All Offences)\"}],\"Category\":[{\"queryRef\":\"Calendar.Date\",\"active\":true}],\"Series\":[{\"queryRef\":\"QPS_REGIONS.REGION\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"OtherTheft\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Calendar\",\"Type\":0},{\"Name\":\"q\",\"Entity\":\"QPS_REGIONS\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"All Offences\"}},\"Function\":0},\"Name\":\"Sum(OtherTheft.All Offences)\",\"NativeReferenceName\":\"Sum of All Offences\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Date\"},\"Name\":\"Calendar.Date\",\"NativeReferenceName\":\"Date\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"REGION\"},\"Name\":\"QPS_REGIONS.REGION\",\"NativeReferenceName\":\"REGION\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"REGION\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"start\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"name\"}},\"Right\":{\"Literal\":{\"Value\":\"'SOUTHERN'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"name\"}},\"Right\":{\"Literal\":{\"Value\":\"'SOUTH EASTERN'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"name\"}},\"Right\":{\"Literal\":{\"Value\":\"'NORTHERN'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"name\"}},\"Right\":{\"Literal\":{\"Value\":\"'NORTH COAST'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"name\"}},\"Right\":{\"Literal\":{\"Value\":\"'CENTRAL'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":-0.25}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"name\"}},\"Right\":{\"Literal\":{\"Value\":\"'BRISBANE'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"REGION\"}},\"Right\":{\"Literal\":{\"Value\":\"'SOUTH EASTERN'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.1}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"REGION\"}},\"Right\":{\"Literal\":{\"Value\":\"'CENTRAL'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":4,\"Percent\":0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"REGION\"}},\"Right\":{\"Literal\":{\"Value\":\"'BRISBANE'\"}}}}}]}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"REGION\"}},\"Right\":{\"Literal\":{\"Value\":\"'NORTHERN'\"}}}}}]}}],\"legend\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'RightCenter'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"8D\"}}}}}],\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"3a8dbab1662633cda391\"}",
+          "filters": "[{\"name\":\"3cf238086a857e64ab64\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Calendar\"}},\"Property\":\"Month Name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Month Name\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false},{\"name\":\"09dbe226cb48826684ce\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"QPS_REGIONS\"}},\"Property\":\"name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"QPS_REGIONS\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"name\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'FAR NORTHERN'\"}}],[{\"Literal\":{\"Value\":\"'NORTH COAST'\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 357.14,
+          "width": 360.00,
+          "x": 621.84,
+          "y": 29.39,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"3a8dbab1662633cda391\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.714285714285714,\"y\":541.4285714285714,\"z\":2000,\"width\":981.8367346938776,\"height\":386.96101456082664,\"tabOrder\":2000}}],\"singleVisualGroup\":{\"displayName\":\"Regional breakdown\",\"groupMode\":0}}",
+          "height": 386.96,
+          "width": 981.84,
+          "x": 5.71,
+          "y": 541.43,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"48865974c41108564287\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":981.25,\"height\":58.75,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Heading backing'\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.6}}}}}}}]}},\"parentGroupName\":\"825d1475323d30339c65\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 58.75,
+          "width": 981.25,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"544c57dbee344b6956ce\",\"layouts\":[{\"id\":0,\"position\":{\"x\":756.25,\"y\":0,\"z\":3000,\"width\":225,\"height\":58.75,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"_measures.Latest Data\"},{\"queryRef\":\"_measures.Last Refreshed\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"_\",\"Entity\":\"_measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Latest Data\"},\"Name\":\"_measures.Latest Data\",\"NativeReferenceName\":\"Latest Data\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Last Refreshed\"},\"Name\":\"_measures.Last Refreshed\",\"NativeReferenceName\":\"Last Refreshed\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"_\"}},\"Property\":\"Latest Data\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}}},\"selector\":{\"id\":\"default\"}}],\"layout\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"fillCustom\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Narrow'\"}}}},\"selector\":{\"id\":\"default\"}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Dates'\"}}}}}]}},\"parentGroupName\":\"825d1475323d30339c65\"}",
+          "filters": "[]",
+          "height": 58.75,
+          "width": 225.00,
+          "x": 756.25,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"64ad47709904d55e4ea5\",\"layouts\":[{\"id\":0,\"position\":{\"height\":434.2857142857144,\"width\":362.8571428571429,\"x\":2.8571428571428568,\"y\":0,\"z\":3000,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"The effect of Queensland COVID-19 travel restrictions on \\\"Other Theft\\\" were immediate and pronounced. \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#063652\"}}]},{\"textRuns\":[{\"value\":\"However, the travel restrictions did not address the underlying causes, and theft has returned to pre-COVID-19 levels.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"Compared to pre-COVID-19 levels, Northern and Central Queensland have seen the highest increase in Theft volumes, with the Northern region seeing a increase of +646 incidents.\",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"While the immediate drop in reported theft is consistent with the expected effect of travel restrictions, it's also possible that the re-allocation of Queensland Police Service resources to enforcing new restrictions may have reduced the number of completed investigations.\"}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"ABS defines 'Other theft' as illegally taking of another person's property with intention but without the use or threat of force \",\"textStyle\":{\"color\":\"#333333\"}},{\"value\":\"[1]\",\"textStyle\":{\"color\":\"#333333\",\"lineHeight\":\"0\",\"position\":\"relative\",\"verticalAlign\":\"baseline\",\"scriptType\":\"super\",\"top\":\"-0.25em\"},\"url\":\"https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-offence-classification-anzsoc/2023/07/079\"}]}]}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"da88f7d6d00ced178503\"}",
+          "filters": "[]",
+          "height": 434.29,
+          "width": 362.86,
+          "x": 2.86,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"6866600d464d74dae50d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":4.6938775510204085,\"y\":26.530612244897938,\"z\":3000,\"width\":361.42857142857144,\"height\":360,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Throughout the COVID-19 restrictions, urban centres continued to experience highest volumes of thef\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\",\"color\":\"#063652\"}},{\"value\":\"t\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"12pt\"}},{\"value\":\". \",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"High urban theft volumes is consistent with crime theory: crime is more likely in areas with a large number of targets, and where those targets are easily accessible. \",\"textStyle\":{\"fontSize\":\"12pt\"}},{\"value\":\"[2]\",\"textStyle\":{\"fontSize\":\"12px\"}},{\"value\":\" \",\"textStyle\":{\"fontSize\":\"12pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]},{\"textRuns\":[{\"value\":\"While the COVID-19 restrictions were effective in reducing the accessibility of targets, by limiting the ability to travel and reducing the number of unoccupied homes, the restrictions didn't change the target profile: Regional areas still had fewer targets for crime than urban areas, and those targets are further apart, making them less viable targets for theft \",\"textStyle\":{\"fontSize\":\"12pt\"}}]}]}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"3a8dbab1662633cda391\"}",
+          "filters": "[]",
+          "height": 360.00,
+          "width": 361.43,
+          "x": 4.69,
+          "y": 26.53,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"6f27248c01b83e1142d6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":72.5,\"y\":8.75,\"z\":2000,\"width\":683.75,\"height\":50,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Post COVID theft across Queensland [2019 - 2024]\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"18pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Title'\"}}}}}]}},\"parentGroupName\":\"825d1475323d30339c65\"}",
+          "filters": "[]",
+          "height": 50.00,
+          "width": 683.75,
+          "x": 72.50,
+          "y": 8.75,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"7ffc7fb4eb4bccd4a3ab\",\"layouts\":[{\"id\":0,\"position\":{\"x\":363.265306122449,\"y\":27.959183673469365,\"z\":2000,\"width\":261.42857142857144,\"height\":358.5714285714286,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shapeMap\",\"projections\":{\"Category\":[{\"queryRef\":\"QPS_REGIONS1.REGION\"}],\"Value\":[{\"queryRef\":\"Sum(OtherTheft.All Offences)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"QPS_REGIONS\",\"Type\":0},{\"Name\":\"o\",\"Entity\":\"OtherTheft\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"REGION\"},\"Name\":\"QPS_REGIONS1.REGION\",\"NativeReferenceName\":\"REGION\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"All Offences\"}},\"Function\":0},\"Name\":\"Sum(OtherTheft.All Offences)\",\"NativeReferenceName\":\"Sum of All Offences\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"map\":{\"geoJson\":{\"type\":{\"expr\":{\"Literal\":{\"Value\":\"'packaged'\"}}},\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'QPS_REGIONS.json'\"}}},\"content\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"QPS_REGIONS8256390078310674.json\"}}}}},\"projectionEnum\":{\"expr\":{\"Literal\":{\"Value\":\"'mercator'\"}}}}}],\"dataPoint\":[{\"properties\":{\"fillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'minColor'\"}}}},\"max\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#063652'\"}}}},\"nullColoringStrategy\":{\"strategy\":{\"expr\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'South Queensland has the majority of State-wide thefts'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"3a8dbab1662633cda391\"}",
+          "filters": "[]",
+          "height": 358.57,
+          "width": 261.43,
+          "x": 363.27,
+          "y": 27.96,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"825d1475323d30339c65\",\"layouts\":[{\"id\":0,\"position\":{\"height\":58.75,\"width\":981.25,\"x\":6.25,\"y\":7.5,\"z\":3000,\"tabOrder\":1000}}],\"singleVisualGroup\":{\"displayName\":\"Headers\",\"groupMode\":0}}",
+          "height": 58.75,
+          "width": 981.25,
+          "x": 6.25,
+          "y": 7.50,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"8cbd381aa75146e592be\",\"layouts\":[{\"id\":0,\"position\":{\"height\":434.2857142857144,\"width\":357.14285714285717,\"x\":624.2857142857143,\"y\":0,\"z\":1000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(OtherTheft.All Offences)\"}],\"Category\":[{\"queryRef\":\"Calendar.Date\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"OtherTheft\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Calendar\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"All Offences\"}},\"Function\":0},\"Name\":\"Sum(OtherTheft.All Offences)\",\"NativeReferenceName\":\"Sum of All Offences\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Date\"},\"Name\":\"Calendar.Date\",\"NativeReferenceName\":\"Date\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Date\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"valueAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}},\"start\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"categoryAxis\":[{\"properties\":{\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"trend\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Trend line 1'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":3,\"Percent\":0}}}}},\"style\":{\"expr\":{\"Literal\":{\"Value\":\"'dotted'\"}}},\"autoScale\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"xAxisReferenceLine\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Public Health Emergency'\"}}},\"value\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2020-01-29T12:45:15.334'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.5}}}}},\"style\":{\"expr\":{\"Literal\":{\"Value\":\"'dotted'\"}}},\"dataLabelShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"dataLabelHorizontalPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'right'\"}}},\"dataLabelVerticalPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'under'\"}}},\"dataLabelText\":{\"expr\":{\"Literal\":{\"Value\":\"'Name'\"}}},\"dataLabelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.5}}}}}},\"selector\":{\"id\":\"2\"}},{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"displayName\":{\"expr\":{\"Literal\":{\"Value\":\"'Reopening'\"}}},\"value\":{\"expr\":{\"Literal\":{\"Value\":\"datetime'2022-01-15T12:47:50.639'\"}}},\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.3}}}}},\"style\":{\"expr\":{\"Literal\":{\"Value\":\"'dotted'\"}}},\"dataLabelShow\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"dataLabelHorizontalPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'left'\"}}},\"dataLabelVerticalPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'above'\"}}},\"dataLabelText\":{\"expr\":{\"Literal\":{\"Value\":\"'Name'\"}}},\"dataLabelColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.2}}}}}},\"selector\":{\"id\":\"3\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Theft is recovering to pre-COVID levels'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"12D\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}},\"parentGroupName\":\"da88f7d6d00ced178503\"}",
+          "filters": "[{\"name\":\"3cf238086a857e64ab64\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Calendar\"}},\"Property\":\"Month Name\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Calendar\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Month Name\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}}]},\"type\":\"Categorical\",\"howCreated\":1,\"objects\":{\"general\":[{\"properties\":{\"isInvertedSelectionMode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"isHiddenInViewMode\":false}]",
+          "height": 434.29,
+          "width": 357.14,
+          "x": 624.29,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9bd3ade5338a4bdb4a4d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":4.081632653061224,\"y\":936.9387755102041,\"z\":1000,\"width\":984.2857142857143,\"height\":198.77551020408168,\"tabOrder\":4000}}],\"singleVisualGroup\":{\"displayName\":\"Detailed breakdown\",\"groupMode\":0}}",
+          "height": 198.78,
+          "width": 984.29,
+          "x": 4.08,
+          "y": 936.94,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"a206c43ab3e105c82dc0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":6.666666666666666,\"y\":1148.888888888889,\"z\":0,\"width\":981.1111111111111,\"height\":117.77777777777777,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Author: \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"13.3333px\"}},{\"value\":\"Jack MacCormick\",\"textStyle\":{\"fontSize\":\"13.3333px\"}}]},{\"textRuns\":[{\"value\":\"Sources:\",\"textStyle\":{\"fontWeight\":\"bold\"}}]},{\"textRuns\":[{\"value\":\"Crime volumes: \"},{\"value\":\"https://mypolice.qld.gov.au/queensland-crime-statistics/\",\"textStyle\":{},\"url\":\"https://mypolice.qld.gov.au/queensland-crime-statistics/\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"QPS Regions: \"},{\"value\":\"https://www.data.qld.gov.au/dataset/qps-regions\",\"textStyle\":{},\"url\":\"https://www.data.qld.gov.au/dataset/qps-regions\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"[1] Definition of \\\"Other Theft\\\": \"},{\"value\":\"https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-offence-classification-anzsoc/2023/07/079\",\"textStyle\":{},\"url\":\"https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-offence-classification-anzsoc/2023/07/079\"}],\"listType\":\"bullet\"},{\"textRuns\":[{\"value\":\"[2] Short term impact of COVID on property time in QLD: \"},{\"value\":\"https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-020-00136-3\",\"textStyle\":{},\"url\":\"https://crimesciencejournal.biomedcentral.com/articles/10.1186/s40163-020-00136-3\"}],\"listType\":\"bullet\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'About'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 117.78,
+          "width": 981.11,
+          "x": 6.67,
+          "y": 1148.89,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"b0ab89fe102193250246\",\"layouts\":[{\"id\":0,\"position\":{\"height\":198.24714207947744,\"width\":834.2420915032678,\"x\":8.775510204081632,\"y\":0.5283681246042338,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Columns\":[{\"queryRef\":\"QPS_REGIONS.REGION\",\"active\":true}],\"Values\":[{\"queryRef\":\"Sum(OtherTheft.All Offences)\"}],\"Rows\":[{\"queryRef\":\"Calendar.Year\",\"active\":true},{\"queryRef\":\"Calendar.Month Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"OtherTheft\",\"Type\":0},{\"Name\":\"q\",\"Entity\":\"QPS_REGIONS\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Calendar\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"All Offences\"}},\"Function\":0},\"Name\":\"Sum(OtherTheft.All Offences)\",\"NativeReferenceName\":\"Sum of All Offences\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"REGION\"},\"Name\":\"QPS_REGIONS.REGION\",\"NativeReferenceName\":\"REGION\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Year\"},\"Name\":\"Calendar.Year\",\"NativeReferenceName\":\"Year\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Month Name\"},\"Name\":\"Calendar.Month Name\",\"NativeReferenceName\":\"Month Name\"}]},\"expansionStates\":[{\"roles\":[\"Rows\"],\"levels\":[{\"queryRefs\":[\"Calendar.Year\"],\"isCollapsed\":true,\"identityKeys\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"Calendar\"}},\"Property\":\"Year\"}}],\"isPinned\":true},{\"queryRefs\":[\"Calendar.Month Name\"],\"isCollapsed\":true,\"isPinned\":true}],\"root\":{\"identityValues\":null,\"children\":[{\"identityValues\":[{\"Literal\":{\"Value\":\"2019L\"}}],\"isToggled\":true}]}}],\"drillFilterOtherVisuals\":true,\"objects\":{\"columnHeaders\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}},\"titleAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Auto'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"values\":[{\"properties\":{\"valuesOnRow\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"subTotals\":[{\"properties\":{\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"grid\":[{\"properties\":{\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}]}},\"parentGroupName\":\"9bd3ade5338a4bdb4a4d\"}",
+          "filters": "[]",
+          "height": 198.25,
+          "width": 834.24,
+          "x": 8.78,
+          "y": 0.53,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"b1c74392a5d40bab8a30\",\"layouts\":[{\"id\":0,\"position\":{\"height\":434.2857142857144,\"width\":982.8571428571429,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"parentGroupName\":\"da88f7d6d00ced178503\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 434.29,
+          "width": 982.86,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"b3d227ee1c658dbc2257\",\"layouts\":[{\"id\":0,\"position\":{\"height\":386.96101456082664,\"width\":981.3807421269628,\"x\":0,\"y\":0,\"z\":0,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'South Queensland remains the lead region for theft throughout the COVID recovery'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'\"}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}},\"parentGroupName\":\"3a8dbab1662633cda391\",\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 386.96,
+          "width": 981.38,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"da88f7d6d00ced178503\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.714285714285714,\"y\":97.14285714285715,\"z\":2500,\"width\":982.8571428571429,\"height\":434.28571428571433,\"tabOrder\":3000}}],\"singleVisualGroup\":{\"displayName\":\"Main Body\",\"groupMode\":0}}",
+          "height": 434.29,
+          "width": 982.86,
+          "x": 5.71,
+          "y": 97.14,
+          "z": 2500.00
+        }
+      ],
+      "width": 1000.00
+    }
+  ],
+  "theme": "Custom8183063334939624.json"
+}

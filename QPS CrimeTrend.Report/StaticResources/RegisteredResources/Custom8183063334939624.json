@@ -1,0 +1,19 @@
+{
+  "name": "Custom",
+  "dataColors": [
+    "#063652",
+    "#66C8CB",
+    "#E5E8E8",
+    "#F99E33",
+    "#0F8187",
+    "#E6E7EB",
+    "#771E32",
+    "#A70240"
+  ],
+  "bad": "#8A1220",
+  "neutral": "#E6E7EB",
+  "good": "#339D37",
+  "minimum": "#E6E7EB",
+  "center": "#339D37",
+  "maximum": "#8A1220"
+}

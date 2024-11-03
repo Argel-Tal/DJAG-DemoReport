@@ -1,0 +1,130 @@
+table QPS_REGIONS
+	lineageTag: f028e207-5012-419c-abe1-4d1328206b43
+
+	column name
+		dataType: string
+		lineageTag: 43e65993-c371-4b2f-a529-f6e2b43f9077
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column visibility
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: b9c362c6-e16d-4ba3-85c9-f06e1278efc8
+		summarizeBy: none
+		sourceColumn: visibility
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: d99bfe8c-35db-4a18-a635-e9a2a177c214
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column styleUrl
+		dataType: string
+		lineageTag: a5ae161c-9478-435f-8737-fde1323d5a53
+		summarizeBy: none
+		sourceColumn: styleUrl
+
+		annotation SummarizationSetBy = Automatic
+
+	column fill-opacity
+		dataType: int64
+		formatString: 0
+		lineageTag: e466f940-fb0e-4385-baea-641c6cd170b7
+		summarizeBy: none
+		sourceColumn: fill-opacity
+
+		annotation SummarizationSetBy = Automatic
+
+	column fill
+		dataType: string
+		lineageTag: 47a0687e-1154-474c-991d-3c4a1f6a4586
+		summarizeBy: none
+		sourceColumn: fill
+
+		annotation SummarizationSetBy = Automatic
+
+	column stroke-opacity
+		dataType: int64
+		formatString: 0
+		lineageTag: 2057c4e1-362a-4041-be57-877d42e11096
+		summarizeBy: none
+		sourceColumn: stroke-opacity
+
+		annotation SummarizationSetBy = Automatic
+
+	column stroke
+		dataType: string
+		lineageTag: bce10fb1-ad93-475c-b26f-cbd23920410a
+		summarizeBy: none
+		sourceColumn: stroke
+
+		annotation SummarizationSetBy = Automatic
+
+	column stroke-width
+		dataType: double
+		lineageTag: cd0b9956-5c2d-4171-8d8f-890e8363845f
+		summarizeBy: none
+		sourceColumn: stroke-width
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column label-scale
+		dataType: int64
+		formatString: 0
+		lineageTag: 7d584cb1-53dd-4ff3-850f-e6d5fbc7521c
+		summarizeBy: none
+		sourceColumn: label-scale
+
+		annotation SummarizationSetBy = Automatic
+
+	column icon-scale
+		dataType: double
+		lineageTag: 49a25027-079f-4ad6-bb68-fabb972be17f
+		summarizeBy: none
+		sourceColumn: icon-scale
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column REGION
+		dataType: string
+		lineageTag: 83ce37ae-bda9-416b-a972-384922602a81
+		summarizeBy: none
+		sourceColumn: REGION
+
+		annotation SummarizationSetBy = Automatic
+
+	column FID
+		dataType: string
+		lineageTag: ebfa0fd3-a4a6-4461-8131-cbbdb4295e8f
+		summarizeBy: none
+		sourceColumn: FID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition QPS_REGIONS = m
+		mode: import
+		queryGroup: '01 Metadata'
+		source =
+				let
+				    Source = Csv.Document(File.Contents(BasePath & "Geomap\QPS_REGIONS.csv"),[Delimiter=",", Columns=13, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"name", type text}, {"visibility", type logical}, {"description", type text}, {"styleUrl", type text}, {"fill-opacity", Int64.Type}, {"fill", type text}, {"stroke-opacity", Int64.Type}, {"stroke", type text}, {"stroke-width", type number}, {"label-scale", Int64.Type}, {"icon-scale", type number}, {"REGION", type text}, {"FID", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

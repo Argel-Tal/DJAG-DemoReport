@@ -1,0 +1,41 @@
+model Model
+	culture: en-AU
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-AU
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup '00 Utilities'
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup '00 Utilities\00-00 Params'
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup '01 Metadata'
+
+	annotation PBI_QueryGroupOrder = 2
+
+queryGroup '02 Facts'
+
+	annotation PBI_QueryGroupOrder = 3
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.137.1102.0 (24.10)
+
+annotation PBI_QueryOrder = ["BasePath","QPS_REGIONS","Calendar","OtherTheft","Last Refreshed","Latest Data","_measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table QPS_REGIONS
+ref table Calendar
+ref table OtherTheft
+ref table 'Last Refreshed'
+ref table 'Latest Data'
+ref table _measures
+
+ref cultureInfo en-AU
+

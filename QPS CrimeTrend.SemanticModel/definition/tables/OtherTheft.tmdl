@@ -1,0 +1,61 @@
+table OtherTheft
+	lineageTag: ba66a89c-843f-434a-9ca5-dac20d2a747f
+
+	column Region
+		dataType: string
+		lineageTag: 3d47d99d-ad04-4029-8b7b-e8ba0df79f58
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'All Offences'
+		dataType: int64
+		formatString: #,0
+		lineageTag: bce86265-ad55-448e-b44d-173486a86a67
+		summarizeBy: sum
+		sourceColumn: All Offences
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7b2272de-06b1-4957-a334-5870912d5d59
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition OtherTheft = m
+		mode: import
+		queryGroup: '02 Facts'
+		source =
+				let
+				    Source = Folder.Files(BasePath & "datasets"),
+				    #"Filtered Rows" = Table.SelectRows(Source, each Text.Contains([Name], "otherTheft")),
+				    #"Added Region" = Table.AddColumn(#"Filtered Rows", "Region", each Text.BetweenDelimiters([Name], "-", ".csv")),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Added Region",{"Region", "Content"}),
+				    #"Added CSV" = Table.AddColumn(#"Removed Other Columns", "CSVContent", each Csv.Document([Content])),
+				    #"Expanded CSVContent" = Table.ExpandTableColumn(#"Added CSV", "CSVContent", {"Column1", "Column2"}, {"Offence Date", "All Offences"}),
+				    #"Filtered out headers" = Table.SelectRows(#"Expanded CSVContent", each [Offence Date] <> "Offence Date"),
+				    #"Added Date" = Table.AddColumn(#"Filtered out headers", "Date", each Date.FromText([Offence Date]), type date),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Added Date",{{"All Offences", Int64.Type}}),
+				    #"Removed Other Columns1" = Table.SelectColumns(#"Changed Type",{"Region", "All Offences", "Date"}),
+				    #"Replaced Bris" = Table.ReplaceValue(#"Removed Other Columns1","Bris","BRISBANE",Replacer.ReplaceText,{"Region"}),
+				    #"Replaced Central" = Table.ReplaceValue(#"Replaced Bris","Central","CENTRAL",Replacer.ReplaceText,{"Region"}),
+				    #"Replaced FNQ" = Table.ReplaceValue(#"Replaced Central","FNQ","FAR NORTHERN",Replacer.ReplaceText,{"Region"}),
+				    #"Replaced NC" = Table.ReplaceValue(#"Replaced FNQ","NCoast","NORTH COAST",Replacer.ReplaceText,{"Region"}),
+				    #"Replaced Northern" = Table.ReplaceValue(#"Replaced NC","Northern","NORTHERN",Replacer.ReplaceText,{"Region"}),
+				    #"Replaced SE" = Table.ReplaceValue(#"Replaced Northern","SE","SOUTH EASTERN",Replacer.ReplaceText,{"Region"}),
+				    #"Replaced Southern" = Table.ReplaceValue(#"Replaced SE","South","SOUTHERN",Replacer.ReplaceText,{"Region"})
+				
+				in
+				    #"Replaced Southern"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

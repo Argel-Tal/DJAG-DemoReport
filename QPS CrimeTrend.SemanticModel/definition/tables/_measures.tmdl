@@ -1,0 +1,42 @@
+table _measures
+	lineageTag: e387f254-68a9-47c7-907a-ee501e114bae
+
+	measure 'Last Refreshed' = Max('Last Refreshed'[Last Refreshed])
+		formatString: yyyy/mm/dd
+		lineageTag: e8c44d36-a6ee-4381-b38e-4335489bccdf
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	measure 'Latest Data' = Max('Latest Data'[Latest Data])
+		formatString: yyyy/mm/dd
+		lineageTag: 59bcd0b9-2242-482b-9919-37b5624f0fdc
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	measure Change =
+			
+			var Lockdown = Date(2020,1,1)
+			var MaxDate = MAx(OtherTheft[Date])
+			
+			VAR starting = CALCULATE(SUM(OtherTheft[All Offences]), FILTER(OtherTheft, OtherTheft[Date] = Lockdown))
+			VAR ending = CALCULATE(SUM(OtherTheft[All Offences]), FILTER(OtherTheft, OtherTheft[Date] = MaxDate))
+			
+			RETURN ending - starting
+		formatString: 0
+		lineageTag: 2eb457cc-93a8-41ab-a5ba-e099352d6f9d
+
+	partition _measures = m
+		mode: import
+		queryGroup: '00 Utilities'
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

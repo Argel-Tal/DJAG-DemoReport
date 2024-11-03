@@ -1,0 +1,27 @@
+table 'Last Refreshed'
+	lineageTag: 52e51365-f8ab-4e45-b493-067f0efff42f
+
+	column 'Last Refreshed'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: f4cd1cea-9985-48a4-a73b-cb8aaad27999
+		summarizeBy: none
+		sourceColumn: Last Refreshed
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition 'Last Refreshed' = m
+		mode: import
+		queryGroup: '00 Utilities'
+		source =
+				let
+				    Source = DateTime.Date(DateTime.FixedLocalNow())
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Date
+
