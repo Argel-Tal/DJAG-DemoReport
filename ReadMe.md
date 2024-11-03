@@ -35,5 +35,5 @@ Interface | <img src="./ReadMeImgs/Landing.png" width="350" title = "Landing Pag
 Data Model | <img src="./ReadMeImgs/QueryStructure.png" width="350" title = "PBI Queries"> | <img src="./ReadMeImgs/Schema.png" width="350" title = "Schema">
 
 ## Tools:
-[Filled Shape tutorial PowerBI](https://servian.dev/power-bi-custom-maps-part-ii-shape-map-939873da3f66)
-[GeoJSON tool](https://mapshaper.org/)
+- [Filled Shape tutorial PowerBI](https://servian.dev/power-bi-custom-maps-part-ii-shape-map-939873da3f66)
+- [GeoJSON tool](https://mapshaper.org/)
